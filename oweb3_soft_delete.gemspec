@@ -9,14 +9,12 @@ Gem::Specification.new do |s|
   s.version     = Oweb3SoftDelete::VERSION
   s.authors     = ["Denis Fabien"]
   s.email       = ["denis.fabien.ca@gmail.com"]
-  s.homepage    = "TODO"
-  s.summary     = "TODO: Summary of Oweb3SoftDelete."
-  s.description = "TODO: Description of Oweb3SoftDelete."
+  s.homepage    = ""
+  s.summary     = "Summary of Oweb3SoftDelete."
+  s.description = "Description of Oweb3SoftDelete."
   s.license     = "MIT"
 
   s.files = Dir["{app,config,db,lib}/**/*", "MIT-LICENSE", "Rakefile", "README.md"]
 
-  s.add_dependency "rails", "~> 5.0.1"
-
-  s.add_development_dependency "sqlite3"
+  s.add_dependency "rails"
 end
