@@ -9,9 +9,9 @@ Gem::Specification.new do |s|
   s.version     = Oweb3SoftDelete::VERSION
   s.authors     = ["Denis Fabien"]
   s.email       = ["denis.fabien.ca@gmail.com"]
-  s.homepage    = ""
-  s.summary     = "Summary of Oweb3SoftDelete."
-  s.description = "Description of Oweb3SoftDelete."
+  s.homepage    = "https://www.miseajour.net"
+  s.summary     = "Small gem to add soft delete feature to active record"
+  s.description = "Small gem to add soft delete feature to active record"
   s.license     = "MIT"
 
   s.files = Dir["{app,config,db,lib}/**/*", "MIT-LICENSE", "Rakefile", "README.md"]
